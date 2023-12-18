@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar >
+    <ion-menu-button slot="start"> </ion-menu-button>
+    <ion-title class="home">Mil Grau <p>Bebidas</p></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content><div class="container">
+ 
+    <ion-list ><ion-item (click)="guaranaLitro()"> <ion-img class="size" src="/assets/img/guarana.png" ></ion-img><p class="texto-list">Guaraná Antartica 1L</p></ion-item></ion-list>
+
+    <ion-list ><ion-item (click)="cocaZero()" > <ion-img class="size" src="/assets/img/cocazero.png"></ion-img><p class="texto-list">Coca-cola Zero 350ml</p></ion-item></ion-list>
+
+    <ion-list ><ion-item  (click)="cocaLitro()"> <ion-img class="size" src="/assets/img/coca1l.jpg"></ion-img><p class="texto-list">Coca-cola 1L</p></ion-item></ion-list>
+
+    <ion-list ><ion-item (click)="h2O()"> <ion-img class="size" src="/assets/img/h2O.jpg"></ion-img><p class="texto-list">Refrigerante Limoneto H2oh 500ml</p></ion-item></ion-list>
+
+    <ion-list ><ion-item (click)="latinha()" > <ion-img class="size" src="/assets/img/guaranalata.jpg"></ion-img><p class="texto-list">Refrigerante Guaraná Antartica 350ml</p></ion-item></ion-list>
+  
+  </div>
+</ion-content>
+
+<ion-footer >
+    <ion-toolbar>
+      <p>Copyright 2023 - Todos os Direitos Reservados</p>
+     
+    </ion-toolbar>
+    
+</ion-footer>

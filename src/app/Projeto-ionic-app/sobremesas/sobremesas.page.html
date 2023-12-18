@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar >
+    <ion-menu-button slot="start"> </ion-menu-button>
+    <ion-title class="home">Mil Grau <p>Sobremesas</p></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content><div class="container">
+ 
+    <ion-list ><ion-item (click)="macaron()"> <ion-img class="size" src="/assets/img/macaron.jpg" ></ion-img><p class="texto-list">Macarron</p></ion-item></ion-list>
+
+    <ion-list ><ion-item (click)="bolo()" > <ion-img class="size" src="/assets/img/fatia-de-bolo.jpg"></ion-img><p class="texto-list">Fatia de bolo</p></ion-item></ion-list>
+
+    <ion-list ><ion-item (click)="cakePops()" > <ion-img class="size" src="/assets/img/cake-pops.jpg"></ion-img><p class="texto-list">Cake Pops</p></ion-item></ion-list>
+
+    <ion-list ><ion-item (click)="morango()"> <ion-img class="size" src="/assets/img/eclair-de-morango.jpg"></ion-img><p class="texto-list">Eclair de morango</p></ion-item></ion-list>
+
+    <ion-list ><ion-item (click)="muffin()" > <ion-img class="size" src="/assets/img/bolinho-de-miffin.jpg"></ion-img><p class="texto-list">Bollinho de muffin</p></ion-item></ion-list>
+  
+  </div>
+</ion-content>
+
+<ion-footer>
+    <ion-toolbar>
+        <p>Copyright 2023 - Todos os Direitos Reservados</p>
+     
+    </ion-toolbar>
+    
+</ion-footer>

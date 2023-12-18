@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-menu-button slot="start"> </ion-menu-button>
+    <ion-title class="home"> Mil Grau  <p>Lanches</p></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content><div class="container">
+ 
+    <ion-list ><ion-item (click)="frangoEmpanado()"> <ion-img class="size" src="/assets/img/frango-empanado.jpg" ></ion-img><p class="texto-list">Frango Empanado no espeto</p></ion-item></ion-list>
+
+    <ion-list ><ion-item (click)="xBurgger()" > <ion-img class="size" src="/assets/img/x-burgger.jpg"></ion-img><p class="texto-list">X-Burgger</p></ion-item></ion-list>
+
+    <ion-list ><ion-item (click)="pizza()" > <ion-img class="size" src="/assets/img/rollinho-de-pizza.jpg"></ion-img><p class="texto-list">Rollinho de pizza</p></ion-item></ion-list>
+
+    <ion-list ><ion-item (click)="churrasco()"> <ion-img class="size" src="/assets/img/churrasco.jpg"></ion-img><p class="texto-list">Churrasco no espeto</p></ion-item></ion-list>
+
+    <ion-list ><ion-item  (click)="vegan()"> <ion-img class="size" src="/assets/img/espetinho-de-vegetal.jpg"></ion-img><p class="texto-list">Espetinho vegano</p></ion-item></ion-list>
+  
+  </div>
+</ion-content>
+
+<ion-footer >
+    <ion-toolbar >
+      <p>Copyright 2023 - Todos os Direitos Reservados</p>
+    </ion-toolbar>
+    
+</ion-footer>
